@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = "styles.css">
-    <script src = "script.js"></script>
+    <script src = "script.js" defer></script>
 </head>
 
 
@@ -13,25 +13,25 @@
     <div id = "container">
         <img src = 
         "https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=1024x1024&w=0&k=20&c=z8_rWaI8x4zApNEEG9DnWlGXyDIXe-OmsAyQ5fGPVV8="
-        class = "imagedisplay">
+        class = "imagedisplay" id = "1">
 
         <img src = 
         "https://thumbs.dreamstime.com/b/landscape-sunset-view-morain-lake-mountain-range-alberta-canada-44613434.jpg"
-        class = "imagedisplay">
+        class = "imagedisplay" id = "2">
 
 
         <img src = 
         "https://media.istockphoto.com/id/1381637603/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=w64j3fW8C96CfYo3kbi386rs_sHH_6BGe8lAAAFS-y4="
-        class = "imagedisplay">
+        class = "imagedisplay" id = "3">
 
 
         <img src = 
         "https://t3.ftcdn.net/jpg/00/50/13/40/360_F_50134069_oESZdArAXu3vkoixTdtdAfvRNj0fuVmZ.jpg"
-        class = "imagedisplay">
+        class = "imagedisplay" id = "4">
 
         <img src = 
         "https://img.freepik.com/premium-photo/beautiful-landscape-with-lake-mountains-background_1322455-3823.jpg"
-        class = "imagedisplay">
+        class = "imagedisplay" id = "5">
 
         <div id = "leftslider">
             <h2 class = "sliderstyle"> < </h2>
@@ -44,11 +44,11 @@
     
 
     <div id = "navigation">
-        <button class = "navbutton"> </button>
-        <button class = "navbutton"> </button>
-        <button class = "navbutton"> </button>
-        <button class = "navbutton"> </button>
-        <button class = "navbutton"> </button>
+        <button class = "navbutton" id = "nav1" onclick="displaySlides(1), modifyNav(1), clearInterval(interval)"> </button>
+        <button class = "navbutton" id = "nav2" onclick="displaySlides(2), modifyNav(2), clearInterval(interval)"> </button>
+        <button class = "navbutton" id = "nav3" onclick="displaySlides(3), modifyNav(3), clearInterval(interval)"> </button>
+        <button class = "navbutton" id = "nav4" onclick="displaySlides(4), modifyNav(4), clearInterval(interval)"> </button>
+        <button class = "navbutton" id = "nav5" onclick="displaySlides(5), modifyNav(5), clearInterval(interval)"> </button>
     </div>
 
 
