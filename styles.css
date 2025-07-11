@@ -23,7 +23,6 @@ body,html{
 }
 
 .imagedisplay{
-    display: none;
     height: 400px;
     width: 700px;
 }
@@ -34,6 +33,7 @@ body,html{
     top: 45%;
     width: 50px;
     text-align: center;
+    cursor:pointer;
 }
 
 #leftslider{
@@ -42,6 +42,7 @@ body,html{
     top:45%;
     width: 50px;
     text-align: center;
+    cursor: pointer;
 }
 
 #rightslider:hover, #leftslider:hover{
@@ -53,8 +54,6 @@ body,html{
     color: white;
 }
 
-
-
 /* navigation */
 
 #navigation{
@@ -62,10 +61,9 @@ body,html{
     justify-content: center;
     gap: 10px;
     align-items: center;
-
     height: 30px;
     width: 700px;
-    background-color: rgb(204, 199, 199);
+    background-color: black;
 }
 
 .navbutton{
@@ -75,5 +73,21 @@ body,html{
 }
 
 .navbutton:hover{
-    background-color: rgb(10, 10, 10);
+    background-color: gray;
+}
+
+.showimage{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.enableColor{
+    background-color: white;
+}
+
+.disableColor{
+    background-color: greenyellow;
 }
